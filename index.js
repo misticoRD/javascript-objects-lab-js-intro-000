@@ -24,8 +24,11 @@ let newObject =  Object.assign(object);
 
 delete newObject.key;
 return newObject;
+return object;
 }
 
 function destructivelyDeleteFromObjectByKey(object, key){
   return delete object.key;
 }
+
+
