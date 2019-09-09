@@ -25,12 +25,7 @@ newObject.key[undefined];
 return newObject;
 }
 
-function deleteFromObjectByKey(object, key){
-let newObject =  Object.assign(object);
 
-delete newObject.key;
-return newObject;
-}
 
 function destructivelyDeleteFromObjectByKey(object, key){
   return delete object.key;
