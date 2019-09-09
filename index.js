@@ -20,7 +20,8 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 }
 
 function deleteFromObjectByKey(object, key){
-  let clone = Object.assing({}, object)
-return  delete clone.key
+  var clone = Object.assing({}, object)
+  delete clone.key
+  return clone;
 
 }
