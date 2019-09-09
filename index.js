@@ -30,5 +30,3 @@ return object;
 function destructivelyDeleteFromObjectByKey(object, key){
   return delete object.key;
 }
-
-
