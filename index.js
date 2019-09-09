@@ -22,4 +22,5 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 function deleteFromObjectByKey(object, key){
   let clone = Object.assing({}, object, key);
   delete clone[key];
+  return clone;
 }
